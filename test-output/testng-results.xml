@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="49718" started-at="2021-04-27T09:15:00Z" finished-at="2021-04-27T09:15:50Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="49718" started-at="2021-04-27T09:15:00Z" finished-at="2021-04-27T09:15:50Z">
+      <class name="org.sample.Report">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:org.sample.Report@5f2108b5]" name="beforeClass" is-config="true" duration-ms="26182" started-at="2021-04-27T09:15:00Z" finished-at="2021-04-27T09:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.sample.Report@5f2108b5]" name="beforeMethod" is-config="true" duration-ms="15" started-at="2021-04-27T09:15:26Z" finished-at="2021-04-27T09:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Testing1()[pri:0, instance:org.sample.Report@5f2108b5]" name="Testing1" duration-ms="401" started-at="2021-04-27T09:15:26Z" finished-at="2021-04-27T09:15:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testing1 -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:org.sample.Report@5f2108b5]" name="afterMethod" is-config="true" duration-ms="268" started-at="2021-04-27T09:15:27Z" finished-at="2021-04-27T09:15:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[private void org.sample.Report.Testing1()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="Testing2()[pri:0, instance:org.sample.Report@5f2108b5]" name="Testing2" duration-ms="2572" started-at="2021-04-27T09:15:27Z" finished-at="2021-04-27T09:15:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testing2 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.sample.Report@5f2108b5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-04-27T09:15:27Z" finished-at="2021-04-27T09:15:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:org.sample.Report@5f2108b5]" name="afterMethod" is-config="true" duration-ms="181" started-at="2021-04-27T09:15:30Z" finished-at="2021-04-27T09:15:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[private void org.sample.Report.Testing2()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="Testing3()[pri:0, instance:org.sample.Report@5f2108b5]" name="Testing3" duration-ms="1645" started-at="2021-04-27T09:15:30Z" finished-at="2021-04-27T09:15:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testing3 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.sample.Report@5f2108b5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-04-27T09:15:30Z" finished-at="2021-04-27T09:15:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:org.sample.Report@5f2108b5]" name="afterMethod" is-config="true" duration-ms="135" started-at="2021-04-27T09:15:31Z" finished-at="2021-04-27T09:15:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[private void org.sample.Report.Testing3()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.sample.Report@5f2108b5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-04-27T09:15:32Z" finished-at="2021-04-27T09:15:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Testing4()[pri:0, instance:org.sample.Report@5f2108b5]" name="Testing4" duration-ms="5045" started-at="2021-04-27T09:15:32Z" finished-at="2021-04-27T09:15:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testing4 -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:org.sample.Report@5f2108b5]" name="afterMethod" is-config="true" duration-ms="206" started-at="2021-04-27T09:15:37Z" finished-at="2021-04-27T09:15:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[private void org.sample.Report.Testing4() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="Testing5()[pri:0, instance:org.sample.Report@5f2108b5]" name="Testing5" duration-ms="4870" started-at="2021-04-27T09:15:37Z" finished-at="2021-04-27T09:15:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testing5 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.sample.Report@5f2108b5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-04-27T09:15:37Z" finished-at="2021-04-27T09:15:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:org.sample.Report@5f2108b5]" name="afterMethod" is-config="true" duration-ms="95" started-at="2021-04-27T09:15:42Z" finished-at="2021-04-27T09:15:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[private void org.sample.Report.Testing5() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.sample.Report@5f2108b5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-04-27T09:15:42Z" finished-at="2021-04-27T09:15:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Testing6()[pri:0, instance:org.sample.Report@5f2108b5]" name="Testing6" duration-ms="7086" started-at="2021-04-27T09:15:42Z" finished-at="2021-04-27T09:15:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testing6 -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:org.sample.Report@5f2108b5]" name="afterMethod" is-config="true" duration-ms="287" started-at="2021-04-27T09:15:49Z" finished-at="2021-04-27T09:15:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[private void org.sample.Report.Testing6() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testing()[pri:0, instance:org.sample.Report@5f2108b5]" name="testing" duration-ms="143" started-at="2021-04-27T09:15:49Z" finished-at="2021-04-27T09:15:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testing -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.sample.Report@5f2108b5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-04-27T09:15:49Z" finished-at="2021-04-27T09:15:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:org.sample.Report@5f2108b5]" name="afterMethod" is-config="true" duration-ms="151" started-at="2021-04-27T09:15:49Z" finished-at="2021-04-27T09:15:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[private void org.sample.Report.testing() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:org.sample.Report@5f2108b5]" name="afterClass" is-config="true" duration-ms="399" started-at="2021-04-27T09:15:49Z" finished-at="2021-04-27T09:15:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- org.sample.Report -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
