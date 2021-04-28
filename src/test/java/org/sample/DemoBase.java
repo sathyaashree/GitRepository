@@ -22,7 +22,8 @@ public class DemoBase extends BaseClass {
 		BaseClass.launchUrl("http://demo.automationtesting.in/Register.html");
 	}
 @AfterClass
-private void quit1() {
+private void quit() {
+	driver.quit();
 }
 @BeforeMethod
 private void beforeDate() {
@@ -39,11 +40,11 @@ private void demo() throws IOException, AWTException, InterruptedException {
 WebElement firstn = BaseClass.findElementXpath("//input[@placeholder='First Name']");
 firstn.sendKeys(BaseClass.filecreationpath("C:\\Users\\LT07052020\\eclipse-workspace\\NGTest1\\Excel\\DemoBase.xlsx", "sheet1", 0, 0));
 String name = firstn.getAttribute("value");
-Assert.assertEquals(name, "Apple");
+Assert.assertEquals(name, "Yohan");
 WebElement last = BaseClass.findElementXpath("//input[@placeholder='Last Name']");
 last.sendKeys(BaseClass.filecreationpath("C:\\Users\\LT07052020\\eclipse-workspace\\NGTest1\\Excel\\DemoBase.xlsx", "sheet1", 1, 0));
 String lastn= last.getAttribute("value");
-Assert.assertEquals(lastn, "Mango");
+Assert.assertEquals(lastn, "Ram");
 WebElement address = BaseClass.findElementXpath("//textarea[@class='form-control ng-pristine ng-untouched ng-valid']");
 address.sendKeys(BaseClass.filecreationpath("C:\\Users\\LT07052020\\eclipse-workspace\\NGTest1\\Excel\\DemoBase.xlsx", "sheet1", 2, 0));
 String add= address.getAttribute("value");
